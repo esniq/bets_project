@@ -5,7 +5,7 @@ import sqlalchemy
 
 ligas = ['belgium','brazil','brazil2','england','england2','england3','england4','france','france2','germany','germany2','italy','italy2','japan','japan2','netherlands','poland','russia','romania','portugal','portugal2','spain','spain2','sweden','turkey']
 
-con = sqlalchemy.create_engine('sqlite:///data/partidas.sqlite3', echo=False)
+con = sqlalchemy.create_engine('sqlite:///partidas.sqlite3', echo=False)
 
 partidas_acontecidas = {}
 
